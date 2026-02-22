@@ -4,7 +4,7 @@ import threading
 import time
 from datetime import datetime
 
-TOKEN = "PASTE_NEW_TOKEN_HERE"
+TOKEN = "8305501223:AAFRNXBEdFSVY7g8_9i7c5-m15krH0mbaTM"
 bot = telebot.TeleBot(TOKEN)
 
 BTN_COURSES = "📚 Курсы"
@@ -105,4 +105,3 @@ threading.Thread(target=notification_worker, daemon=True).start()
 
 print("Bot started...")
 bot.polling(none_stop=True)
-
